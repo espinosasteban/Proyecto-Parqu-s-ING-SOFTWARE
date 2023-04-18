@@ -2,10 +2,10 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "sFicha",
-  "bbox_bottom": 16,
-  "bbox_left": 0,
-  "bbox_right": 16,
-  "bbox_top": 0,
+  "bbox_bottom": 374,
+  "bbox_left": 8,
+  "bbox_right": 378,
+  "bbox_top": 3,
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e6bb59d9-1c7a-441e-a53b-4c4eefc976ab",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"393979ca-7a72-4535-b292-076b64071b91",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 17,
+  "height": 381,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"ab43689a-3f44-4d7f-8806-52e04ad44435","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"ea3fe06e-695b-481e-a1b9-ee27133b1159","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"e6bb59d9-1c7a-441e-a53b-4c4eefc976ab","path":"sprites/sFicha/sFicha.yy",},},},"Disabled":false,"id":"28ef20b0-21a0-4c6c-822f-33c690882009","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"393979ca-7a72-4535-b292-076b64071b91","path":"sprites/sFicha/sFicha.yy",},},},"Disabled":false,"id":"ad31c1bc-055a-49c5-a485-9fbc509a4476","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 17,
+  "width": 390,
 }

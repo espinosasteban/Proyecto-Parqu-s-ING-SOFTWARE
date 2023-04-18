@@ -2,10 +2,10 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "sBoton",
-  "bbox_bottom": 325,
-  "bbox_left": 407,
-  "bbox_right": 541,
-  "bbox_top": 199,
+  "bbox_bottom": 52,
+  "bbox_left": 4,
+  "bbox_right": 57,
+  "bbox_top": 3,
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"808a1b6e-f1b3-45d9-8de5-2305d1800c33",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"2b12cf2b-876e-4fdf-9189-4573f343ae54",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 600,
+  "height": 58,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"bcd6de1e-5a58-4034-9b54-e732ef3eeabb","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"d632d0bd-ec52-4408-a61b-4350e5347d4e","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"808a1b6e-f1b3-45d9-8de5-2305d1800c33","path":"sprites/sBoton/sBoton.yy",},},},"Disabled":false,"id":"d09c6669-10da-4879-9863-3b4cdd308dd8","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"2b12cf2b-876e-4fdf-9189-4573f343ae54","path":"sprites/sBoton/sBoton.yy",},},},"Disabled":false,"id":"834b6d90-febb-46fd-b7ed-7fc83da0d10c","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 960,
+  "width": 61,
 }

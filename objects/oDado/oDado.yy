@@ -4,7 +4,7 @@
   "name": "oDado",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":true,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
@@ -32,8 +32,8 @@
   ],
   "solid": false,
   "spriteId": {
-    "name": "sDado",
-    "path": "sprites/sDado/sDado.yy",
+    "name": "sDado_quieto",
+    "path": "sprites/sDado_quieto/sDado_quieto.yy",
   },
   "spriteMaskId": null,
   "visible": true,

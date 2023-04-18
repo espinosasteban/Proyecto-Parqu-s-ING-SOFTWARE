@@ -44,6 +44,7 @@
     {"id":{"name":"sBoton","path":"sprites/sBoton/sBoton.yy",},},
     {"id":{"name":"oCasilla","path":"objects/oCasilla/oCasilla.yy",},},
     {"id":{"name":"sCasillaCielo","path":"sprites/sCasillaCielo/sCasillaCielo.yy",},},
+    {"id":{"name":"sDado_quieto","path":"sprites/sDado_quieto/sDado_quieto.yy",},},
     {"id":{"name":"sDado","path":"sprites/sDado/sDado.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],

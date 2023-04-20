@@ -26,8 +26,8 @@
   "properties": [],
   "solid": true,
   "spriteId": {
-    "name": "sCasilla",
-    "path": "sprites/sCasilla/sCasilla.yy",
+    "name": "sCasillaSeguro",
+    "path": "sprites/sCasillaSeguro/sCasillaSeguro.yy",
   },
   "spriteMaskId": null,
   "visible": true,

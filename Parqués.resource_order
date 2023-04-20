@@ -18,9 +18,11 @@
   ],
   "ResourceOrderSettings": [
     {"name":"oCasillaCielo","order":1,"path":"objects/oCasillaCielo/oCasillaCielo.yy",},
+    {"name":"sCasillaSalida","order":6,"path":"sprites/sCasillaSalida/sCasillaSalida.yy",},
     {"name":"oDado","order":4,"path":"objects/oDado/oDado.yy",},
     {"name":"oCasillaSalida","order":6,"path":"objects/oCasillaSalida/oCasillaSalida.yy",},
     {"name":"oCasillaLlegada","order":2,"path":"objects/oCasillaLlegada/oCasillaLlegada.yy",},
+    {"name":"sCasillaSeguro","order":7,"path":"sprites/sCasillaSeguro/sCasillaSeguro.yy",},
     {"name":"oBoton","order":5,"path":"objects/oBoton/oBoton.yy",},
     {"name":"oCasillaSeguro","order":7,"path":"objects/oCasillaSeguro/oCasillaSeguro.yy",},
     {"name":"oFicha","order":3,"path":"objects/oFicha/oFicha.yy",},

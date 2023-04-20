@@ -2,9 +2,7 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "oCasillaSalida",
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,},
-  ],
+  "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
@@ -28,8 +26,8 @@
   "properties": [],
   "solid": true,
   "spriteId": {
-    "name": "sCasilla",
-    "path": "sprites/sCasilla/sCasilla.yy",
+    "name": "sCasillaSalida",
+    "path": "sprites/sCasillaSalida/sCasillaSalida.yy",
   },
   "spriteMaskId": null,
   "visible": true,

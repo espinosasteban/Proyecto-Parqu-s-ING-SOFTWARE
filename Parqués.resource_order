@@ -29,6 +29,7 @@
     {"name":"sFicha","order":2,"path":"sprites/sFicha/sFicha.yy",},
     {"name":"sBoton","order":4,"path":"sprites/sBoton/sBoton.yy",},
     {"name":"sCasillaCielo","order":1,"path":"sprites/sCasillaCielo/sCasillaCielo.yy",},
+    {"name":"oSeccion","order":8,"path":"objects/oSeccion/oSeccion.yy",},
     {"name":"sDado_quieto","order":5,"path":"sprites/sDado_quieto/sDado_quieto.yy",},
     {"name":"sDado","order":3,"path":"sprites/sDado/sDado.yy",},
   ],

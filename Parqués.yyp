@@ -41,7 +41,6 @@
     {"id":{"name":"oBoton","path":"objects/oBoton/oBoton.yy",},},
     {"id":{"name":"oCasillaSeguro","path":"objects/oCasillaSeguro/oCasillaSeguro.yy",},},
     {"id":{"name":"oFicha","path":"objects/oFicha/oFicha.yy",},},
-    {"id":{"name":"sCasillaSalida","path":"sprites/sCasillaSalida/sCasillaSalida.yy",},},
     {"id":{"name":"sFicha","path":"sprites/sFicha/sFicha.yy",},},
     {"id":{"name":"sCasilla","path":"sprites/sCasilla/sCasilla.yy",},},
     {"id":{"name":"sBoton","path":"sprites/sBoton/sBoton.yy",},},

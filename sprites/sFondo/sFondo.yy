@@ -1,11 +1,11 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "sCasillaCielo",
-  "bbox_bottom": 476,
-  "bbox_left": 24,
-  "bbox_right": 487,
-  "bbox_top": 35,
+  "name": "sFondo",
+  "bbox_bottom": 953,
+  "bbox_left": 28,
+  "bbox_right": 953,
+  "bbox_top": 28,
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"0a5107e6-2528-4333-a90c-a7c84a7fbcc9",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b6f17ece-214f-4427-a900-2a6994001bc7",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 512,
+  "height": 980,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"7668d25b-5e0d-42a4-9220-084a22b393a3","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"03d45e18-1b48-4018-a9c2-a830492afbeb","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -32,7 +32,7 @@
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "sCasillaCielo",
+    "name": "sFondo",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"0a5107e6-2528-4333-a90c-a7c84a7fbcc9","path":"sprites/sCasillaCielo/sCasillaCielo.yy",},},},"Disabled":false,"id":"f8e16f95-e738-4b7a-89a1-59f4c34a896c","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"b6f17ece-214f-4427-a900-2a6994001bc7","path":"sprites/sFondo/sFondo.yy",},},},"Disabled":false,"id":"5e9842b3-fa7d-4b7e-90bf-23c31f066a25","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 512,
+  "width": 980,
 }

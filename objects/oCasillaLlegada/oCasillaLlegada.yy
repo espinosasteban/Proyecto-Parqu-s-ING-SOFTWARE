@@ -23,7 +23,10 @@
   "physicsShape": 1,
   "physicsShapePoints": [],
   "physicsStartAwake": true,
-  "properties": [],
+  "properties": [
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"id_casilla","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"1","varType":1,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"tipo_casilla","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"amarilla","varType":2,},
+  ],
   "solid": false,
   "spriteId": {
     "name": "sCasilla",

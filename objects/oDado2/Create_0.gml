@@ -1,3 +1,2 @@
-numero = 1;
-movimiento = false;
+movimiento = random_number_2;
 

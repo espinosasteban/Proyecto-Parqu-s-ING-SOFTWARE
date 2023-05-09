@@ -1,2 +1,3 @@
-movimiento = random_number_1;
+
+movimiento = false;
 

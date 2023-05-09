@@ -37,4 +37,6 @@ if oDado.sprite_index == sDado {
 		} else if (oDado2.random_number_2 == 6) {
 			oDado2.sprite_index = s6;
 	}
-}}
+}
+lanzado = true;
+}

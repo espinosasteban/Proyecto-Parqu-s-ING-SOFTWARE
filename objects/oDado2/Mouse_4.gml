@@ -4,5 +4,8 @@ if (mouse_check_button_pressed(mb_left) && point_in_rectangle(mouse_x, mouse_y, 
     
     // Aquí puedes escribir el código para utilizar el resultado del dado según tus necesidades
     show_message("El resultado del dado es: " + string(random_number_2));
-	oFicha.movimiento = random_number_2
+	oFicha.resultado = random_number_2
+	
+	// se cambia lanzamiento del dado a true, para permitir al jugador ejecutar un movimiento
+	lanzado = true; 
 }

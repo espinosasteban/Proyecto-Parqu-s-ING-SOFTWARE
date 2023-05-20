@@ -7,5 +7,5 @@ if (mouse_check_button_pressed(mb_left) && point_in_rectangle(mouse_x, mouse_y, 
 	oFicha.resultado = random_number_1
 	
 	// se cambia lanzamiento del dado a true, para permitir al jugador ejecutar un movimiento
-	lanzado = true; 
+	global.lanzado = true; 
 }

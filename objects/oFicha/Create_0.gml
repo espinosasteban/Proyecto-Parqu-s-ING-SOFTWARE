@@ -2,8 +2,5 @@
 
 // En este campo se crean las variables que van a permitir o restringir acciones
 
-// 
-movimiento = false;
-
-// Variable que verifica si los dados se lanzaron
-lanzado = false;
+// Variable que verifica si la ficha ya puede realizar un movimiento
+global.movimiento = false;

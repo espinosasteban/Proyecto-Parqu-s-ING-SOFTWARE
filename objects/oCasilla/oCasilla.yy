@@ -3,6 +3,7 @@
   "resourceVersion": "1.0",
   "name": "oCasilla",
   "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
   ],
   "managed": true,
@@ -26,7 +27,7 @@
   "physicsShapePoints": [],
   "physicsStartAwake": true,
   "properties": [
-    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"id_casilla","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"1","varType":1,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"id_casilla","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":true,"rangeMax":100.0,"rangeMin":0.0,"value":"0","varType":1,},
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"tipo_casilla","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"normal","varType":2,},
   ],
   "solid": true,
@@ -34,6 +35,9 @@
     "name": "sCasilla",
     "path": "sprites/sCasilla/sCasilla.yy",
   },
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "sCasilla",
+    "path": "sprites/sCasilla/sCasilla.yy",
+  },
   "visible": true,
 }

@@ -1,4 +1,4 @@
-/// @description Inserte aquí la descripción
+/// @description Lanzar dados
 // Puede escribir su código en este editor
 image_index = 2;
 // Generar un número aleatorio entre 1 y 6

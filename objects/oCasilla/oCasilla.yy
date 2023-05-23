@@ -20,10 +20,10 @@
   "physicsGroup": 1,
   "physicsKinematic": false,
   "physicsLinearDamping": 0.1,
-  "physicsObject": false,
+  "physicsObject": true,
   "physicsRestitution": 0.1,
   "physicsSensor": false,
-  "physicsShape": 1,
+  "physicsShape": 2,
   "physicsShapePoints": [],
   "physicsStartAwake": true,
   "properties": [

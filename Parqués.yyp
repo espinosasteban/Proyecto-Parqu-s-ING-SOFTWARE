@@ -47,7 +47,6 @@
     {"id":{"name":"s4","path":"sprites/s4/s4.yy",},},
     {"id":{"name":"sFicha","path":"sprites/sFicha/sFicha.yy",},},
     {"id":{"name":"sCasilla","path":"sprites/sCasilla/sCasilla.yy",},},
-    {"id":{"name":"sCasillaElegible","path":"sprites/sCasillaElegible/sCasillaElegible.yy",},},
     {"id":{"name":"sBoton","path":"sprites/sBoton/sBoton.yy",},},
     {"id":{"name":"oDado2","path":"objects/oDado2/oDado2.yy",},},
     {"id":{"name":"oCasilla","path":"objects/oCasilla/oCasilla.yy",},},

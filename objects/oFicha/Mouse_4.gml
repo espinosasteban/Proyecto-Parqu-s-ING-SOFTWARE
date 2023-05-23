@@ -13,6 +13,15 @@ if (global.lanzado == true) {
 	// Se habilita selección de casilla a mover
 	global.movimiento = true;
 	
+	// Se bloquea dado con el cual se realizó el movimiento
+	if (global.seleccionado == dado1) {
+		global.usado1 = true;
+		oDado.random_number_1 = 0;
+	} else if (global.seleccionado == dado2) {
+		global.usado2 = true;
+		oDado2.random_number_2 = 0;
+	}
+	
 	// Se deshabilita el estado del dado lanzado
 	global.lanzado = false;
 }

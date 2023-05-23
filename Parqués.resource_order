@@ -29,7 +29,6 @@
     {"name":"oFicha","order":3,"path":"objects/oFicha/oFicha.yy",},
     {"name":"s4","order":11,"path":"sprites/s4/s4.yy",},
     {"name":"sFicha","order":2,"path":"sprites/sFicha/sFicha.yy",},
-    {"name":"sCasillaElegible","order":15,"path":"sprites/sCasillaElegible/sCasillaElegible.yy",},
     {"name":"sBoton","order":3,"path":"sprites/sBoton/sBoton.yy",},
     {"name":"oDado2","order":8,"path":"objects/oDado2/oDado2.yy",},
     {"name":"s6","order":13,"path":"sprites/s6/s6.yy",},

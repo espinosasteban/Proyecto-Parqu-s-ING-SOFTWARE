@@ -1,14 +1,36 @@
 /// @description Movimiento
-
+sonidos_mover = [sndMoverFicha1, sndMoverFicha2, sndMoverFicha3, sndMoverFicha4]
 // Detecta la instancia de la casilla a la cual es posible desplazarse
 if (global.lanzado == true) {
+	
+	
 	pos = resultado + pos_ficha - 1
-	desplaza = oCasilla.casillas[pos]
-	ex = desplaza.x
-	ye = desplaza.y
-	x = ex
-	y = ye
-	pos_ficha = pos + 1
+	
+	i = 0
+	while (i <= pos){
+		var tiempoInicio = current_time;
+		while (current_time - tiempoInicio < 1000)
+		{
+		    // Espera hasta que haya pasado 1 segundo (1000 milisegundos)
+		    // No hagas nada en este bucle, solo espera
+		}
+		desplaza = oCasilla.casillas[i]
+		ex = desplaza.x
+		ye = desplaza.y
+		x = ex
+		y = ye
+		pos_ficha = i + 1
+		
+		audio_play_sound(sonidos_mover[irandom_range(0,3)], 0, false)
+		i += 1
+		show_message("i es: " + string(i))
+		
+		  // Guarda el tiempo actual en una variable
+
+		
+	}
+	
+	
 	
 	// Se habilita selección de casilla a mover
 	global.movimiento = true;

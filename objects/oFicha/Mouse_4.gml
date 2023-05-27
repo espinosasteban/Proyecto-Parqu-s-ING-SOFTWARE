@@ -8,12 +8,8 @@ if (global.lanzado == true) {
 	
 	i = 0
 	while (i <= pos){
-		var tiempoInicio = current_time;
-		while (current_time - tiempoInicio < 1000)
-		{
-		    // Espera hasta que haya pasado 1 segundo (1000 milisegundos)
-		    // No hagas nada en este bucle, solo espera
-		}
+
+		
 		desplaza = oCasilla.casillas[i]
 		ex = desplaza.x
 		ye = desplaza.y
@@ -23,7 +19,7 @@ if (global.lanzado == true) {
 		
 		audio_play_sound(sonidos_mover[irandom_range(0,3)], 0, false)
 		i += 1
-		show_message("i es: " + string(i))
+
 		
 		  // Guarda el tiempo actual en una variable
 

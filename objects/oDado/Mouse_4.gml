@@ -6,7 +6,7 @@ if (global.usado1 == false) {
     show_message("El resultado del dado es: " + string(random_number_1));
 	
 	// Asigna resultado a objeto ficha
-	oFicha.resultado = random_number_1;
+	global.resultado = random_number_1;
 	
 	// Detecta cuál dado fue seleccionado
 	var inst = instance_position(mouse_x, mouse_y, oDado);

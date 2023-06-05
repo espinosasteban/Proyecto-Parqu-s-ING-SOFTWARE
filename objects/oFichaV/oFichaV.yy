@@ -26,11 +26,7 @@
   "physicsShape": 1,
   "physicsShapePoints": [],
   "physicsStartAwake": true,
-  "properties": [
-    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"id_ficha","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"1","varType":1,},
-    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"color_ficha","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"","varType":2,},
-    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"pos_ficha","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":true,"rangeMax":10.0,"rangeMin":0.0,"value":"5","varType":1,},
-  ],
+  "properties": [],
   "solid": false,
   "spriteId": {
     "name": "sFicha",

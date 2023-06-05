@@ -1,3 +1,4 @@
 /// @description Inserte aquí la descripción
 // Puede escribir su código en este editor
-global.usado2 = false;
+turnos = ["verde", "amarillo", "morado", "azul", "rojo"]
+turno = "verde"

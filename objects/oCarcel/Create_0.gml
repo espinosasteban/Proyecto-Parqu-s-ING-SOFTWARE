@@ -1,3 +1,8 @@
 // Crear una variable de control en el objeto
-// Variable estática para verificar si el código ya se ejecutó
+
+// Variables booleanas para cada cárcel
 carcelV = false;
+carcelAm = false;
+carcelM = false;
+carcelAz = false;
+carcelR = false;

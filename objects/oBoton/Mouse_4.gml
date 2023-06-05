@@ -1,8 +1,17 @@
 /// @description Lanzar dados
 // Puede escribir su código en este editor
 
-// Solo funciona si el dado no ha sido lanzado o si se acaba un turno
-if (!global.lanzado) {
+// Solo funciona si el dado no ha sido lanzado y usado o si se acaba un turno
+if (global.lanzado == false) {
+	//Habilita la selección de dados
+	global.usado1 = false;
+	global.usado2 = false;
+	
+	// Establece resultado y selección en 0, hasta que se escoja un dado
+	global.resultado = 0;
+	global.seleccionado = 0
+	
+	// Lanza dados y asigna dos valores aleatorios entre 1 y 6
 	image_index = 2;
 	sonidos_dados = [sndTirarDados1, sndTirarDados2]
 	randomize();

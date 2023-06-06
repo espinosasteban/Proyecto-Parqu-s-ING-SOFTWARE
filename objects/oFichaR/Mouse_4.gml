@@ -80,6 +80,9 @@ if (verificador.turno == "rojo") {
 			}
 		}
 	}
+	if (global.usado1 and global.usado2) {
+		fin_turno_rojo()
+	}	
 	// Movimiento con repetición de turno
 	//else if 
 }

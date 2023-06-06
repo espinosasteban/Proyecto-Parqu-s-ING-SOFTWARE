@@ -1,17 +1,14 @@
 /// @description Calcular resultado aleatorio
 // Puede escribir su código en este editor
-if (mouse_check_button_pressed(mb_left) && point_in_rectangle(mouse_x, mouse_y, x, y, x + sprite_width,y + sprite_height))
-{
-    // Cambia el sprite del botón al sprite de clic
-    oDado.sprite_index = sDado;
-	oDado2.sprite_index = sDado;
-}
 
-// En el evento "Step" del botón
+// Calcula cuánto dura la animación del dado en movimiento y asigna un sprite de resultado
 if oDado.sprite_index == sDado {
-    if tiempo_sprite > 0 { // Si aún queda tiempo en el temporizador
+	
+	// Si aún queda tiempo en el temporizador
+    if tiempo_sprite > 0 { 
         tiempo_sprite -= 1;
-    } else { // Si se agotó el tiempo, volver al sprite original
+		} 
+		else { // Si se agotó el tiempo asignar un sprite dependiendo del resultado
 		if (oDado.random_number_1 == 1) {
 			oDado.sprite_index = sDado_quieto;
 		} else if (oDado.random_number_1 == 2) {
@@ -24,7 +21,9 @@ if oDado.sprite_index == sDado {
 			oDado.sprite_index = s5;
 		} else if (oDado.random_number_1 == 6) {
 			oDado.sprite_index = s6;
-        } if (oDado2.random_number_2 == 1) {
+			} 
+			
+		if (oDado2.random_number_2 == 1) {
 			oDado2.sprite_index = sDado_quieto;
 		} else if (oDado2.random_number_2 == 2) {
 			oDado2.sprite_index = s2;

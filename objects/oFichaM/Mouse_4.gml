@@ -80,6 +80,9 @@ if (verificador.turno == "morado") {
 			}
 		}
 	}
+	if (global.usado1 and global.usado2) {
+		fin_turno_morado()
+	}
 	// Movimiento con repetición de turno
 	//else if 
 }

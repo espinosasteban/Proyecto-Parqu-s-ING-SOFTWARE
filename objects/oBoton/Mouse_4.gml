@@ -11,14 +11,14 @@ if (global.lanzado == false) {
 	global.resultado = 0;
 	global.seleccionado = 0
 	
-	// Lanza dados y asigna dos valores aleatorios entre 1 y 6
-	image_index = 2;
+    // Ejecuta animación de dados en movimiento e inicializa contador
+    oDado.sprite_index = sDado;
+	oDado2.sprite_index = sDado;
 	sonidos_dados = [sndTirarDados1, sndTirarDados2]
-	randomize();
 	audio_play_sound(sonidos_dados[irandom_range(0,1)], 1, false)
-	oDado.sprite_index = sDado;
-	oDado2.sprite_index = sDado;// Cambiar sprite del botón
 	tiempo_sprite = 1.5 * room_speed;
+	
+	// Asigna resultados aleatorios
 	oDado.random_number_1 = irandom_range(1, 6);
 	oDado2.random_number_2 = irandom_range(1, 6);
 	

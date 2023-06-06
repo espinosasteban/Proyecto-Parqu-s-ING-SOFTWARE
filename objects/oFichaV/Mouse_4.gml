@@ -73,12 +73,15 @@ if (verificador.turno == "verde") {
 		// Si no se escogió un dado, arroja el siguiente mensaje
 		else {
 			if (global.usado1 and global.usado2) {
-					fin_turno_verde()
+				fin_turno_verde()
 			}
 			else {
 				show_message("Escoja el dado con el cuál se moverá la ficha")
 			}
 		}
+	}
+	if (global.usado1 and global.usado2) {
+		fin_turno_verde()
 	}
 	// Movimiento con repetición de turno
 	//else if 

@@ -6,3 +6,5 @@ carcelAm = false;
 carcelM = false;
 carcelAz = false;
 carcelR = false;
+
+collisionCount = 0;

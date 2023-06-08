@@ -24,6 +24,7 @@
     {"name":"sFondo","order":14,"path":"sprites/sFondo/sFondo.yy",},
     {"name":"sDado","order":8,"path":"sprites/sDado/sDado.yy",},
     {"name":"sCasillaSeguro","order":6,"path":"sprites/sCasillaSeguro/sCasillaSeguro.yy",},
+    {"name":"sFicha16","order":16,"path":"sprites/sFicha16/sFicha16.yy",},
     {"name":"oFichaAz","order":14,"path":"objects/oFichaAz/oFichaAz.yy",},
     {"name":"oFichaM","order":13,"path":"objects/oFichaM/oFichaM.yy",},
     {"name":"sndMoverFicha3","order":5,"path":"sounds/sndMoverFicha3/sndMoverFicha3.yy",},

@@ -21,9 +21,18 @@ if (verificador.turno == "verde") {
 	/// SIN EMBARGO, TAMBIÉN SE ESTÁ USANDO PARA ESE CASO (MOMENTÁNEAMENTE DEBIDO A QUE SE SOBREPONEN) \\\
 	/// SE DEBE PONER EN EVENTO PASO, QUE SALGA NO LA ESCOGIDA, SINO TODAS PERO BIEN UBICADAS \\\
 	// Salida de la cárcel (fichas verdes)
-	if (oCarcel.carcelV and global.dobles) {
+	if (oCarcel.carcelV and global.dobles and liberado) {
 		if (global.posiv[instancia] == 0){
 			global.posiv[instancia] = 1
+			
+			if (instancia == 0) {
+			x = cas1.x - 20
+			y = cas1.y				
+			}
+			else if (instancia == 1) {
+			x = cas1.x-10
+			y = cas1.y
+			}
 			x = cas1.x
 			y = cas1.y
 			audio_play_sound(sonidos_mover[irandom_range(0,3)], 0, false)
@@ -39,8 +48,45 @@ if (verificador.turno == "verde") {
 			llega = global.posiv[instancia] + global.resultado - 1	
 			for (i = global.posiv[instancia]; i <= llega; i++) {
 				desplaza = oCasilla.casillas[i];
-			    x = desplaza.x;
-			    y = desplaza.y;
+				
+				// Asigna posición según el ángulo
+				if (desplaza.image_angle == 0) {
+					if (instancia == 0) {
+						x = desplaza.x - 25;
+						y = desplaza.y;
+					}
+					else if (instancia == 1) {
+						x = desplaza.x - 7;
+						y = desplaza.y;
+					}
+					else if (instancia == 2) {
+						x = desplaza.x + 8;
+						y = desplaza.y;
+					}
+					else if (instancia == 3) {
+						x = desplaza.x + 25;
+						y = desplaza.y;
+					}
+				}
+				else if (desplaza.image_angle == 72) {
+					if (instancia == 0) {
+						x = desplaza.x  -8;
+						y = desplaza.y + 18;
+					}
+					else if (instancia == 1) {
+						x = desplaza.x - 7;
+						y = desplaza.y;
+					}
+					else if (instancia == 2) {
+						x = desplaza.x + 8;
+						y = desplaza.y;
+					}
+					else if (instancia == 3) {
+						x = desplaza.x -8;
+						y = desplaza.y + 18;
+					}
+				}
+				
 				audio_play_sound(sonidos_mover[irandom_range(0,3)], 0, false)
 				fin = i
 		

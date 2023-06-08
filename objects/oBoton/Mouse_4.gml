@@ -3,6 +3,7 @@
 
 // Solo funciona si el dado no ha sido lanzado y usado o si se acaba un turno
 if (global.lanzado == false) {
+	
 	//Habilita la selección de dados
 	global.usado1 = false;
 	global.usado2 = false;
@@ -19,6 +20,7 @@ if (global.lanzado == false) {
 	tiempo_sprite = 1.5 * room_speed;
 	
 	// Asigna resultados aleatorios
+	//randomize();
 	oDado.random_number_1 = irandom_range(1, 6);
 	oDado2.random_number_2 = irandom_range(1, 6);
 	

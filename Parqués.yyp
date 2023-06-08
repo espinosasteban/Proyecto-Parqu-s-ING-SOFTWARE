@@ -42,6 +42,7 @@
     {"id":{"name":"sFondo","path":"sprites/sFondo/sFondo.yy",},},
     {"id":{"name":"sDado","path":"sprites/sDado/sDado.yy",},},
     {"id":{"name":"sCasillaSeguro","path":"sprites/sCasillaSeguro/sCasillaSeguro.yy",},},
+    {"id":{"name":"sFicha16","path":"sprites/sFicha16/sFicha16.yy",},},
     {"id":{"name":"oFichaAz","path":"objects/oFichaAz/oFichaAz.yy",},},
     {"id":{"name":"oFichaM","path":"objects/oFichaM/oFichaM.yy",},},
     {"id":{"name":"sndMoverFicha3","path":"sounds/sndMoverFicha3/sndMoverFicha3.yy",},},

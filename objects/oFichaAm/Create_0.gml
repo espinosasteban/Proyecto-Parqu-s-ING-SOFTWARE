@@ -4,8 +4,9 @@
 
 // Variable que verifica si la ficha ya puede realizar un movimiento
 global.movimiento = false;
-global.posam = [0,0,0,0]
+global.posiam = [0,0,0,0]
 fichas = [fam1, fam2, fam3, fam4]
+liberado = false;
 
 // Función que detecta si todas las posiciones de una lista son 0
 function todo_cero(lista){
@@ -29,16 +30,12 @@ function todo_cero(lista){
 
 // Función que termina el turno (jugador amarillo)
 function fin_turno_amarillo(){
-	global.usado1 = true;
-	global.usado2 = true;
 	global.lanzado = false;
 	global.dobles = false;
 	verificador.turno = "morado"
 	}
 	
 function repite_turno_amarillo(){
-	global.usado1 = true;
-	global.usado2 = true;
 	global.lanzado = false;
 	global.dobles = false;
 }

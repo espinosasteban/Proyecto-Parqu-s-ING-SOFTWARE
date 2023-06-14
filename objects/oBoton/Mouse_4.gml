@@ -3,7 +3,7 @@
 
 // Solo funciona si el dado no ha sido lanzado y usado o si se acaba un turno
 if (global.lanzado == false) {
-	
+	randomize();
 	//Habilita la selección de dados
 	global.usado1 = false;
 	global.usado2 = false;

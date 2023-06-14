@@ -85,6 +85,24 @@ if (verificador.turno == "verde") {
 						x = desplaza.x -8;
 						y = desplaza.y + 18;
 					}
+				}	
+				else if (desplaza.image_angle == 144) {
+					if (instancia == 0) {
+						x = desplaza.x - 20;
+						y = desplaza.y + 19;
+					}
+					else if (instancia == 1) {
+						x = desplaza.x - 6;
+						y = desplaza.y + 8;
+					}
+					else if (instancia == 2) {
+						x = desplaza.x + 7;
+						y = desplaza.y + 1;
+					}
+					else if (instancia == 3) {
+						x = desplaza.x - 2;
+						y = desplaza.y + 11;
+					}
 				}
 				
 				audio_play_sound(sonidos_mover[irandom_range(0,3)], 0, false)

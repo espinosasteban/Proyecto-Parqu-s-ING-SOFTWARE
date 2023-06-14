@@ -11,3 +11,4 @@ if (global.lanzado and !global.dobles and verificador.turno = "rojo") {
 		fin_turno_rojo()
 		}
 }
+

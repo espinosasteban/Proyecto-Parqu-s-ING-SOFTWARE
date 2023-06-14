@@ -19,7 +19,7 @@ if (collisionAm != noone) {
 	carcelAm = true;
 	}
 	else {
-		carcelAm = true;
+		carcelAm = false;
 }
 
 // Verifica si hay fichas en la cárcel morada
@@ -30,7 +30,7 @@ if (collisionM != noone) {
 	carcelM = true;
 	}
 	else {
-		carcelM = true;
+		carcelM = false;
 }
 
 // Verifica si hay fichas en la cárcel azul
@@ -41,7 +41,7 @@ if (collisionAz != noone) {
 	carcelAz = true;
 	}
 	else {
-		carcelAz = true;
+		carcelAz = false;
 }
 
 // Verifica si hay fichas en la cárcel morada
@@ -52,5 +52,5 @@ if (collisionR != noone) {
 	carcelR = true;
 	}
 	else {
-		carcelR = true;
+		carcelR = false;
 }

@@ -12,3 +12,20 @@ if (global.lanzado and !global.dobles and verificador.turno = "rojo") {
 		}
 }
 
+if (!liberado and global.dobles and oCarcel.carcelR and verificador.turno = "rojo")  {
+	fr1.x = cas69.x - 6
+	fr1.y = cas69.y - 28
+	
+	fr2.x = cas69.x - 2
+	fr2.y = cas69.y - 16
+	
+	fr3.x = cas69.x + 3
+	fr3.y = cas69.y + 1
+	
+	fr4.x = cas69.x + 7
+	fr4.y = cas69.y + 13
+	
+	global.posir = [69,69,69,69]
+	repite_turno_rojo();
+	liberado = true;
+}

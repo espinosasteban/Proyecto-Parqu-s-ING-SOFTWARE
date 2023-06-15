@@ -6,6 +6,7 @@
 global.movimiento = false;
 global.posaz = [0,0,0,0]
 fichas = [faz1, faz2, faz3, faz4]
+liberado = false;
 
 // Función que detecta si todas las posiciones de una lista son 0
 function todo_cero(lista){
@@ -29,16 +30,19 @@ function todo_cero(lista){
 
 // Función que termina el turno (jugador azul)
 function fin_turno_azul(){
-	global.usado1 = true;
-	global.usado2 = true;
-	global.dobles = false;
+	if (global.usado1 and global.usado2 and !global.dobles){
 	global.lanzado = false;
 	verificador.turno = "rojo"
 	}
+	else if (global.usado1 and global.usado2 and global.dobles){
+		repite_turno_azul()
+	}
+	else {
+		return noone}
+}
+	
 	
 function repite_turno_azul(){
-	global.usado1 = true;
-	global.usado2 = true;
 	global.lanzado = false;
 	global.dobles = false;
 }

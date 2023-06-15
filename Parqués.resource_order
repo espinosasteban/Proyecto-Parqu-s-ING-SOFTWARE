@@ -26,7 +26,6 @@
     {"name":"sCasillaSeguro","order":6,"path":"sprites/sCasillaSeguro/sCasillaSeguro.yy",},
     {"name":"sFicha16","order":16,"path":"sprites/sFicha16/sFicha16.yy",},
     {"name":"oFichaAz","order":14,"path":"objects/oFichaAz/oFichaAz.yy",},
-    {"name":"oFichaM","order":13,"path":"objects/oFichaM/oFichaM.yy",},
     {"name":"sndMoverFicha3","order":5,"path":"sounds/sndMoverFicha3/sndMoverFicha3.yy",},
     {"name":"Menu","order":1,"path":"rooms/Menu/Menu.yy",},
     {"name":"s3","order":10,"path":"sprites/s3/s3.yy",},
@@ -50,5 +49,6 @@
     {"name":"sndMoverFicha1","order":3,"path":"sounds/sndMoverFicha1/sndMoverFicha1.yy",},
     {"name":"sDado_quieto","order":4,"path":"sprites/sDado_quieto/sDado_quieto.yy",},
     {"name":"s2","order":9,"path":"sprites/s2/s2.yy",},
+    {"name":"oFichaM","order":16,"path":"objects/oFichaM/oFichaM.yy",},
   ],
 }

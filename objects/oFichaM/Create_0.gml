@@ -28,12 +28,19 @@ function todo_cero(lista){
 	}
 }
 
-// Función que termina el turno (jugador verde)
+// Función que termina el turno (jugador morado)
 function fin_turno_morado(){
+	if (global.usado1 and global.usado2 and !global.dobles){
 	global.lanzado = false;
-	global.dobles = false;
-	verificador.turno = "azul"
+	verificador.turno = "morado"
 	}
+	else if (global.usado1 and global.usado2 and global.dobles){
+		repite_turno_morado()
+	}
+	else {
+		return noone}
+}
+	
 	
 function repite_turno_morado(){
 	global.lanzado = false;

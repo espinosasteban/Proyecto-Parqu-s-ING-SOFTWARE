@@ -8,6 +8,7 @@ global.posiam = [0,0,0,0]
 fichas = [fam1, fam2, fam3, fam4]
 liberado = false;
 
+
 // Función que detecta si todas las posiciones de una lista son 0
 function todo_cero(lista){
 	allZeros = true;  // Variable de control para almacenar si todos los elementos son cero
@@ -30,10 +31,17 @@ function todo_cero(lista){
 
 // Función que termina el turno (jugador amarillo)
 function fin_turno_amarillo(){
+	if (global.usado1 and global.usado2 and !global.dobles){
 	global.lanzado = false;
-	global.dobles = false;
-	verificador.turno = "morado"
+	verificador.turno = "amarillo"
 	}
+	else if (global.usado1 and global.usado2 and global.dobles){
+		repite_turno_amarillo()
+	}
+	else {
+		return noone}
+}
+	
 	
 function repite_turno_amarillo(){
 	global.lanzado = false;

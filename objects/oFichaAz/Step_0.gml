@@ -11,3 +11,21 @@ if (global.lanzado and !global.dobles and verificador.turno = "azul") {
 		fin_turno_azul()
 		}
 }
+
+if (!liberado and global.dobles and oCarcel.carcelAz and verificador.turno = "azul")  {
+	faz1.x = cas52.x - 18
+	faz1.y = cas52.y + 15
+	
+	faz2.x = cas52.x - 6
+	faz2.y = cas52.y + 7
+	
+	faz3.x = cas52.x + 6
+	faz3.y = cas52.y - 2
+	
+	faz4.x = cas52.x + 17
+	faz4.y = cas52.y - 10
+	
+	global.posaz = [52,52,52,52]
+	repite_turno_azul();
+	liberado = true;
+}

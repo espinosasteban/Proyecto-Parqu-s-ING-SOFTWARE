@@ -44,7 +44,6 @@
     {"id":{"name":"sCasillaSeguro","path":"sprites/sCasillaSeguro/sCasillaSeguro.yy",},},
     {"id":{"name":"sFicha16","path":"sprites/sFicha16/sFicha16.yy",},},
     {"id":{"name":"oFichaAz","path":"objects/oFichaAz/oFichaAz.yy",},},
-    {"id":{"name":"oFichaM","path":"objects/oFichaM/oFichaM.yy",},},
     {"id":{"name":"sndMoverFicha3","path":"sounds/sndMoverFicha3/sndMoverFicha3.yy",},},
     {"id":{"name":"Menu","path":"rooms/Menu/Menu.yy",},},
     {"id":{"name":"s3","path":"sprites/s3/s3.yy",},},
@@ -70,6 +69,7 @@
     {"id":{"name":"sndMoverFicha1","path":"sounds/sndMoverFicha1/sndMoverFicha1.yy",},},
     {"id":{"name":"sDado_quieto","path":"sprites/sDado_quieto/sDado_quieto.yy",},},
     {"id":{"name":"s2","path":"sprites/s2/s2.yy",},},
+    {"id":{"name":"oFichaM","path":"objects/oFichaM/oFichaM.yy",},},
     {"id":{"name":"Juego","path":"rooms/Juego/Juego.yy",},},
   ],
   "RoomOrderNodes": [

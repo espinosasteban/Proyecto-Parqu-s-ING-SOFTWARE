@@ -2,9 +2,9 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "sFondo",
-  "bbox_bottom": 0,
+  "bbox_bottom": 935,
   "bbox_left": 0,
-  "bbox_right": 0,
+  "bbox_right": 1499,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"2b7b6e55-3a37-4c12-a6c0-05df8601ff1b",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"340d3c2d-13e7-4cb0-b903-3b3af03c7698",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 64,
+  "height": 936,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"48d1db76-b013-43f8-af3d-5eb0f63662fa","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"99e770f0-1bee-4181-8feb-208eaaf1f0a4","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"2b7b6e55-3a37-4c12-a6c0-05df8601ff1b","path":"sprites/sFondo/sFondo.yy",},},},"Disabled":false,"id":"3b015148-7b62-4fc1-9beb-3718ee0973d8","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"340d3c2d-13e7-4cb0-b903-3b3af03c7698","path":"sprites/sFondo/sFondo.yy",},},},"Disabled":false,"id":"eac63a12-b972-4192-828f-9ccc5cd4ec64","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 64,
+  "width": 1500,
 }

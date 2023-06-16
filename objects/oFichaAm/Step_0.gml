@@ -1,6 +1,6 @@
 /// @description Manejo de excepciones
 // Puede escribir su código en este editor
-verificador.turno = "amarillo"
+
 // Pasa turno cuando verde no sacó doble y todas las fichas están en cárcel
 if (global.lanzado and !global.dobles and verificador.turno = "amarillo") {
 	if todo_cero(global.posiam) {
@@ -12,7 +12,7 @@ if (global.lanzado and !global.dobles and verificador.turno = "amarillo") {
 		}
 }
 
-if (!liberado and global.dobles and oCarcel.carcelAm and verificador.turno = "amarillo")  {
+if (!liberado and global.dobles and oCarcel.carcelAm and verificador.turno = "amarillo" and todo_cero(global.posiam))  {
 	fam1.x = cas18.x - 8
 	fam1.y = cas18.y + 15
 	
@@ -26,6 +26,7 @@ if (!liberado and global.dobles and oCarcel.carcelAm and verificador.turno = "am
 	fam4.y = cas18.y - 26
 	
 	global.posiam = [18,18,18,18]
-	repite_turno_amarillo();
 	liberado = true;
+	repite_turno_amarillo();
+	
 }

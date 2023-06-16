@@ -5,7 +5,6 @@
 if (global.lanzado and !global.dobles and verificador.turno = "morado") {
 	if todo_cero(global.posim) {
 		show_message("No sacaste doble y todas las fichas están en cárcel, pasas turno")
-		show_message(oCarcel.carcelM)
 		global.usado1 = true;
 		global.usado2 = true;
 		global.lanzado = false;
@@ -13,7 +12,7 @@ if (global.lanzado and !global.dobles and verificador.turno = "morado") {
 		}
 }
 
-if (!liberado and global.dobles and oCarcel.carcelM and verificador.turno = "morado")  {
+if (!liberado and global.dobles and oCarcel.carcelM and verificador.turno = "morado" and todo_cero(global.posim))  {
 	
 	fm1.x = cas35.x - 19
 	fm1.y = cas35.y - 7
@@ -28,6 +27,6 @@ if (!liberado and global.dobles and oCarcel.carcelM and verificador.turno = "mor
 	fm4.y = cas35.y + 16
 	
 	global.posim = [35,35,35,35]
-	repite_turno_morado();
 	liberado = true;
+	repite_turno_morado();
 }

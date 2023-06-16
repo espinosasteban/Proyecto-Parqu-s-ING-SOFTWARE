@@ -12,7 +12,7 @@ if (global.lanzado and !global.dobles and verificador.turno = "rojo") {
 		}
 }
 
-if (!liberado and global.dobles and oCarcel.carcelR and verificador.turno = "rojo")  {
+if (!liberado and global.dobles and oCarcel.carcelR and verificador.turno = "rojo" and todo_cero(global.posir))  {
 	fr1.x = cas69.x - 6
 	fr1.y = cas69.y - 28
 	
@@ -26,6 +26,7 @@ if (!liberado and global.dobles and oCarcel.carcelR and verificador.turno = "roj
 	fr4.y = cas69.y + 13
 	
 	global.posir = [69,69,69,69]
-	repite_turno_rojo();
 	liberado = true;
+	repite_turno_rojo();
+
 }

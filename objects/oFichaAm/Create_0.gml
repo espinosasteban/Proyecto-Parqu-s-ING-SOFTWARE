@@ -33,7 +33,7 @@ function todo_cero(lista){
 function fin_turno_amarillo(){
 	if (global.usado1 and global.usado2 and !global.dobles){
 	global.lanzado = false;
-	verificador.turno = "amarillo"
+	verificador.turno = "morado"
 	}
 	else if (global.usado1 and global.usado2 and global.dobles){
 		repite_turno_amarillo()

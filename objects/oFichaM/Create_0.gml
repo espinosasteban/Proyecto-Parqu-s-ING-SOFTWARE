@@ -32,7 +32,7 @@ function todo_cero(lista){
 function fin_turno_morado(){
 	if (global.usado1 and global.usado2 and !global.dobles){
 	global.lanzado = false;
-	verificador.turno = "morado"
+	verificador.turno = "azul"
 	}
 	else if (global.usado1 and global.usado2 and global.dobles){
 		repite_turno_morado()

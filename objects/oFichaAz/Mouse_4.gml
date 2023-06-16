@@ -38,7 +38,7 @@ if (verificador.turno == "azul") {
 	}
 
 	// Movimiento normal de ficha en el tablero si se escogió un dado
-	else if (global.lanzado and !oCarcel.carcelAz and global.posaz[instancia] != 0) {
+	else if (global.lanzado and !oCarcel.carcelAz) {
 		
 		// Se comprueba si se escogió dado
 		if (global.seleccionado != 0 and global.resultado != 0) {
